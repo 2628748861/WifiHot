@@ -56,6 +56,12 @@ public class MainActivity extends AppCompatActivity {
         WIfiHot.start(new RequestData.Builder()
                         .ssid("hsl-ap3-001")
                         .password("12345678")
+                        .code("x")
+                        .firmware("x")
+                        .model("x")
+                        .timestamp("x")
+                        .identification("x")
+                        .version("x")
                         .build());
     }
 }

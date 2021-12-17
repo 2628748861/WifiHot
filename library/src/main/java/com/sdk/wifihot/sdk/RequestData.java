@@ -93,6 +93,10 @@ public class RequestData {
             this.firmware=firmware;
             return this;
         }
+        public Builder version(String version){
+            this.version=version;
+            return this;
+        }
         public RequestData build(){
             return new RequestData(ssid,password,identification,model,version,code,timestamp,firmware);
         }
